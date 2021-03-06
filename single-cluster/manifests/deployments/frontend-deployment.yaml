@@ -17,7 +17,7 @@ spec:
       containers:
       - name: php-redis
         #image: bluezd/gb-frontend:v2
-        image: gcr.io/google-samples/gb-frontend:v4
+        image: hub.rys.cn/demo/gb-frontend:v4
         resources:
           requests:
             cpu: 100m
